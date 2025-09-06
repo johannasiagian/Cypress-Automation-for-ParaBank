@@ -11,7 +11,7 @@ describe("Open New Account Test Case", function (){
         cy.get("input[type='submit']").click()
     })
 
-    it("Open New Account", () => {
+    it("Open New Account with all filled ", () => {
 
         cy.contains("Open New Account").should("be.visible").click()
         
