@@ -1,5 +1,3 @@
-/// <reference types="Cypress"/>
-
 describe("Hooks in Cypress", function callBack() {
 
     before(() => {

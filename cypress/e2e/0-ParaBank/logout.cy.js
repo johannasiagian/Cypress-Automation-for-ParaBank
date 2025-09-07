@@ -1,5 +1,3 @@
-/// <reference types = "Cypress" />
-
 describe("Logout Test Case", function callBack() {
 
      beforeEach(() => {

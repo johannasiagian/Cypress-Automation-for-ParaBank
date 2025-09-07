@@ -1,5 +1,3 @@
-/// <reference types = "Cypress" />
-
 describe("Send Email to Customer Case Test Case", function callBack(){
 
     beforeEach(() => {

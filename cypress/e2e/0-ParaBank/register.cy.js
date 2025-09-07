@@ -1,5 +1,3 @@
-/// <reference types ="Cypress" />
-
 describe("Register Test Case", function callBack() {
 
     it("Register to application", () => {

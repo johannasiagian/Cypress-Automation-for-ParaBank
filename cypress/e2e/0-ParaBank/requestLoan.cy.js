@@ -1,5 +1,3 @@
-/// <reference types ="Cypress" />
-
 describe("Request Loan Test Case", function () {
 
     beforeEach(() => {

@@ -1,5 +1,3 @@
-/// <reference types ="Cypress" />
-
 describe("Open New Account Test Case", function (){
 
     beforeEach(()=> {
@@ -13,8 +11,8 @@ describe("Open New Account Test Case", function (){
 
     it("Open New Account with all filled ", () => {
 
-        cy.contains("Open New Account").should("be.visible").click()
-        
+        cy.clickLink("Open New Account")
+
         cy.get("#type").select("1").should("have.value", "1")
         cy.get("#fromAccountId").select("14010")
         cy.get("input[type='button']").click()

@@ -1,5 +1,3 @@
-/// <reference types = "Cypress"/>
-
 describe("Transfer Fund Test Case", function callBack (){
 
     beforeEach(() => {

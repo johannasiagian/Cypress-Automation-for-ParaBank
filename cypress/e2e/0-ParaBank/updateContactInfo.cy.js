@@ -1,5 +1,3 @@
-/// <reference types = "Cypress" />
-
 describe("Update Profile Test Case", function callBack() {
 
     beforeEach (() => {
